@@ -1,0 +1,17 @@
+{
+	"admin_pages": [
+		"toplevel_page_acf-site-content",
+		"site-content_page_acf-options-navigation",
+		"site-content_page_acf-options-header",
+		"site-content_page_acf-options-partners",
+		"site-content_page_acf-options-benefits",
+		"site-content_page_acf-options-reviews",
+		"site-content_page_acf-options-contacts",
+		"site-content_page_acf-options-not-found",
+		"site-content_page_acf-options-footer"
+	],
+	"post_types": {
+		"acf-field-group": null,
+		"attachment": null
+	}
+}

@@ -1,0 +1,608 @@
+{
+  "sites" : {
+    "-MjOEIcfB6nnv3Pol8jS" : {
+      "name" : "Pumpėnų DGASA"
+    },
+    "-MjOEN4sJNMTkygMaMnI" : {
+      "name" : "Liepkalnio DGASA"
+    },
+    "-MjOEQmsj82TdqpjIX2L" : {
+      "name" : "Pilaitės DGASA"
+    },
+    "-MjOEUAvDiMRLJRf62Zx" : {
+      "name" : "Pramonės DGASA"
+    },
+    "-MjOEX8QbnMqsLq2LomH" : {
+      "name" : "Graičiūno 36C DGASA"
+    },
+    "-MjOE_OKft5K9JKHnnRP" : {
+      "name" : "Pakryžės DGASA"
+    },
+    "-MjOEcaFBI-_dfBQe-Ao" : {
+      "name" : "Pakryžės ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOEgXhtYZRTZ91QyF6" : {
+      "name" : "Veliučionių DGASA"
+    },
+    "-MjOEi8DMgUL9QytYQKD" : {
+      "name" : "Sudervės DGASA"
+    },
+    "-MjOEoUpTV1moWJzPPCh" : {
+      "name" : "Lentvario DGASA"
+    },
+    "-MjOEsp-YtQ5jTYRejwh" : {
+      "name" : "Lentvario ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOEuu9_V2sXAPWxetS" : {
+      "name" : "Šalčininkų DGASA"
+    },
+    "-MjOEy1l8TcfkygyERQR" : {
+      "name" : "Šalčininkų ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOFTmhfqn64_D6cH6t" : {
+      "name" : "Eišiškių DGASA"
+    },
+    "-MjOFXL-Kn0MYLs_-HcK" : {
+      "name" : "Jašiūnų DGASA"
+    },
+    "-MjOFZx3tmJpT_V_eCk8" : {
+      "name" : "Elektrėnų DGASA"
+    },
+    "-MjOFdvCmm7NBPx1B6S3" : {
+      "name" : "Elektrėnų ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOFiq09qrM5FATa-nz" : {
+      "name" : "Šniponių DGASA"
+    },
+    "-MjOFlTk1j9JGfueGFTi" : {
+      "name" : "Šniponių ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOFpHrr4kCKjZgG7rm" : {
+      "name" : "Pliauškių DGASA"
+    },
+    "-MjOFsmm-2SnQPprXwvG" : {
+      "name" : "Pabradės DGASA"
+    },
+    "-MjOFvmuX0MVOIRKLCCz" : {
+      "name" : "Pabradės ŽASA",
+      "acceptCompanies": true
+    },
+    "-MjOFyzMpsZSsE9O2RSl" : {
+      "name" : "Ukmergės DGASA"
+    },
+    "-MjOG2BMqR1glOL_mAfD" : {
+      "name" : "Graičiūno 36D, Vilniaus atliekų apdorojimo aikštelė",
+      "acceptCompanies": true
+    },
+    "-MjOG5EhHn4cwGQPiKZk" : {
+      "name" : "Vilniaus regioninis nepavojingų atliekų savartynas (Kazokiškės)",
+      "acceptCompanies": true
+    },
+    "-MjOG8KpM2OVKwENq7pt" : {
+      "name" : "Vilniaus mechaninio biologinio atliekų apdorojimo įrenginiai",
+      "acceptCompanies": true
+    }
+  },
+  "wastes" : {
+    "-MivpPwAwvCjF5A6o6aX" : {
+      "code" : "08 01 11",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "1.07",
+      "price_vat" : "1.29",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Dažų ir lako, kuriuose yra organinių tirpiklių ar kitų pavojingų cheminių medžiagų, atliekos",
+      "sites": []
+    },
+    "-MivpzV52uvvJfgi63Va" : {
+      "code" : "08 01 17",
+      "free_limit" : "10",
+      "max_limit" : "20",
+      "price" : "1.19",
+      "price_vat" : "1.44",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Dažų ar lako šalinimo atliekos, kuriose yra organinių tirpiklių ar kitų pavojingų cheminių medžiagų",
+      "sites": []
+    },
+    "-Mivq4uPXBKBA2Rd9aZB" : {
+      "code" : "08 01 21",
+      "free_limit" : "10",
+      "max_limit" : "20",
+      "price" : "1.19",
+      "price_vat" : "1.44",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Dažų ar lakų valikio/nuėmėjo  atliekos",
+      "sites": []
+    },
+    "-Mivq8xgCgN32d8tnXoW" : {
+      "code" : "13 02 08",
+      "free_limit" : "10",
+      "max_limit" : "100",
+      "price" : "0.33",
+      "price_vat" : "0.40",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Variklio, pavarų dėžės ir tepalinė alyva",
+      "sites": []
+    },
+    "-Mivr9HKs4b-M5HT74WY" : {
+      "code" : "15 01 01",
+      "free_limit" : "30",
+      "max_limit" : "250",
+      "price" : "0.10",
+      "price_vat" : "0.12",
+      "related" : "2",
+      "uom" : "kg",
+      "waste" : "Popieriaus ir kartono pakuotės",
+      "sites": []
+    },
+    "-MivrCKAysR5SK-OBDk2" : {
+      "code" : "15 01 02",
+      "free_limit" : "20",
+      "max_limit" : "250",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "related" : "3",
+      "uom" : "kg",
+      "waste" : "Plastikinės pakuotės",
+      "sites": []
+    },
+    "-MivrEhgXtCWxyg5CBrm" : {
+      "code" : "15 01 03",
+      "free_limit" : "250",
+      "max_limit" : "100",
+      "price" : "0.12",
+      "price_vat" : "0.15",
+      "related" : "4",
+      "uom" : "kg",
+      "waste" : "Medinės pakuotės",
+      "sites": []
+    },
+    "-MivrI1Ux02nCeTFofjt" : {
+      "code" : "15 01 04",
+      "free_limit" : "unlimited",
+      "max_limit" : "100",
+      "price" : "0",
+      "price_vat" : "0",
+      "uom" : "kg",
+      "waste" : "Metalinės pakuotės",
+      "sites": []
+    },
+    "-MivrL33HRAaEYoy_qNr" : {
+      "code" : "15 01 07",
+      "free_limit" : "50",
+      "max_limit" : "250",
+      "price" : "0.10",
+      "price_vat" : "0.12",
+      "related" : "5",
+      "uom" : "kg",
+      "waste" : "Stiklinės pakuotės",
+      "sites": []
+    },
+    "-MivrNTG-y2IX3Zo4POa" : {
+      "code" : "15 01 10",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "1.07",
+      "price_vat" : "1.29",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Pakuotės, kuriose yra pavojingų cheminių medžiagų likučių arba kurios yra jomis užterštos (plastikinė)",
+      "sites": []
+    },
+    "-MivrX7-ZaP4yVMTmqUf" : {
+      "code" : "15 01 10",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "1.07",
+      "price_vat" : "1.29",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Pakuotės, kuriose yra pavojingų cheminių medžiagų likučių arba kurios yra jomis užterštos (metalinė)",
+      "sites": []
+    },
+    "-MivrZYQYrTylFGaPupc" : {
+      "code" : "15 01 11",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "1.68",
+      "price_vat" : "2.03",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Metalinės pakuotės, įskaitant suslėgto oro talpyklas, kuriose yra pavojingųjų kietų poringų rišamųjų medžiagų (pvz., asbesto)",
+      "sites": []
+    },
+    "-MivrbBKpQXpSgFnNEZK" : {
+      "code" : "16 01 03",
+      "free_limit" : "4",
+      "max_limit" : "50",
+      "price" : "2.22",
+      "price_vat" : "2.69",
+      "uom" : "vnt",
+      "waste" : "Naudotos padangos (automobilių, motociklų, dviračių)",
+      "sites": []
+    },
+    "-MivrdAePYE9Oio7S3WO" : {
+      "code" : "16 01 03",
+      "free_limit" : "0",
+      "max_limit" : "5",
+      "price" : "13.86",
+      "price_vat" : "16.77",
+      "uom" : "vnt",
+      "waste" : "Naudotos padangos (sunkvežimių , traktorių)",
+      "sites": []
+    },
+    "-MivrnWELFSaf5CPV_fu" : {
+      "code" : "16 01 07",
+      "free_limit" : "unlimited",
+      "max_limit" : "20",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Tepalų filtrai",
+      "sites": []
+    },
+    "-MivrqLVUFJNCrFFOGfF" : {
+      "code" : "16 01 13",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "1.76",
+      "price_vat" : "2.13",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Stabdžių skystis",
+      "sites": []
+    },
+    "-MivrslX0iixHg6trDIF" : {
+      "code" : "16 01 14",
+      "free_limit" : "10",
+      "max_limit" : "50",
+      "price" : "0.84",
+      "price_vat" : "1.02",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Aušinamieji skysčiai, kuriuose yra pavojingų cheminių medžiagų",
+      "sites": []
+    },
+    "-MivrvO-YrmVxAJ6-6nw" : {
+      "code" : "16 01 19",
+      "free_limit" : "0",
+      "max_limit" : "100",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "uom" : "kg",
+      "waste" : "Plastikai",
+      "sites": []
+    },
+    "-MivryM1enMNGPlR_PVg" : {
+      "code" : "16 02 15",
+      "free_limit" : "0",
+      "max_limit" : "20",
+      "price" : "1.68",
+      "price_vat" : "2.03",
+      "uom" : "kg",
+      "waste" : "Sudedamosios dalys, išimtos iš nebenaudojamos įrangos",
+      "sites": []
+    },
+    "-Mivs0CgsNcXRNanVxKN" : {
+      "code" : "16 02 15",
+      "free_limit" : "5",
+      "max_limit" : "50",
+      "price" : "0.17",
+      "price_vat" : "0.21",
+      "uom" : "vnt",
+      "waste" : "Spausdintuvų kasetė (toneriai)",
+      "sites": []
+    },
+    "-Mivs3Imfzn8UlvkBi6l" : {
+      "code" : "16 02 16",
+      "free_limit" : "0",
+      "max_limit" : "100",
+      "price" : "0.12",
+      "price_vat" : "0.15",
+      "uom" : "kg",
+      "waste" : "Sudedamosios dalys, išimtos iš nebenaudojamos įrangos, kurios nepaminėtos 16 02 15",
+      "sites": []
+    },
+    "-Mivs5af7sSaLZGL4imx" : {
+      "code" : "16 06 05",
+      "free_limit" : "unlimited",
+      "max_limit" : "20",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Baterijos ir akumuliatoriai",
+      "sites": []
+    },
+    "-Mivs7uJDDaeLspO7BEH" : {
+      "code" : "17 02 01",
+      "free_limit" : "250",
+      "max_limit" : "100",
+      "price" : "0.12",
+      "price_vat" : "0.15",
+      "related" : "4",
+      "uom" : "kg",
+      "waste" : "Medienos atliekos",
+      "sites": []
+    },
+    "-MivsARVFDqrcEi7tnSo" : {
+      "code" : "17 02 02",
+      "free_limit" : "50",
+      "max_limit" : "500",
+      "price" : "0.07",
+      "price_vat" : "0.08",
+      "related" : "5",
+      "uom" : "kg",
+      "waste" : "Statybinių atliekų stiklas",
+      "sites": []
+    },
+    "-MivsDA-oBA23aye-uWK" : {
+      "code" : "17 02 03",
+      "free_limit" : "20",
+      "max_limit" : "250",
+      "price" : "0.15",
+      "price_vat" : "0.18",
+      "related" : "3",
+      "uom" : "kg",
+      "waste" : "Statybinių ir griovimo atliekų plastikai",
+      "sites": []
+    },
+    "-MivsF1FlavQnsRBTV_5" : {
+      "code" : "17 06 01",
+      "free_limit" : "0",
+      "max_limit" : "50",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "uom" : "kg",
+      "waste" : "Izoliacinės medžiagos, kuriose yra asbesto",
+      "sites": []
+    },
+    "-MivsHJXIVq8MlAECfZ_" : {
+      "code" : "17 06 04",
+      "free_limit" : "25",
+      "max_limit" : "50",
+      "price" : "0.36",
+      "price_vat" : "0.44",
+      "related" : "6",
+      "uom" : "kg",
+      "waste" : "Izoliacinės medžiagos (polistirolas, akmens vata, stiklo vata ir pan.)",
+      "sites": []
+    },
+    "-MivsLM1Dvms-pnpm9ti" : {
+      "code" : "17 06 04",
+      "free_limit" : "250",
+      "max_limit" : "2000",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "related" : "6",
+      "uom" : "kg",
+      "waste" : "Izoliacinės medžiagos (gipsas, ruberoidas ir pan.)",
+      "sites": []
+    },
+    "-MivsO922Wp2L3Ujo5-e" : {
+      "code" : "17 06 05",
+      "free_limit" : "0",
+      "max_limit" : "500",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "uom" : "kg",
+      "waste" : "Statybinės atliekos, turinčios asbesto",
+      "sites": []
+    },
+    "-MivsTV4-tT-KuHqbM__" : {
+      "code" : "17 09 04",
+      "free_limit" : "250",
+      "max_limit" : "2000",
+      "price" : "0.12",
+      "price_vat" : "0.15",
+      "uom" : "kg",
+      "waste" : "Statybinės ir griovimo atliekos (betonas, plytos, keramika)",
+      "sites": []
+    },
+    "-MivsXZFwi5ZbzR_falq" : {
+      "code" : "17 09 04",
+      "free_limit" : "0",
+      "max_limit" : "2000",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "uom" : "kg",
+      "waste" : "Mišrios statybinės ir griovimo atliekos",
+      "sites": []
+    },
+    "-Mivs_LBAqz4U19JhHw3" : {
+      "code" : "20 01 01",
+      "free_limit" : "30",
+      "max_limit" : "200",
+      "price" : "0.10",
+      "price_vat" : "0.12",
+      "related" : "2",
+      "uom" : "kg",
+      "waste" : "Popierius ir kartonas",
+      "sites": []
+    },
+    "-MivscJ9LECKtc24l9LG" : {
+      "code" : "20 01 02",
+      "free_limit" : "50",
+      "max_limit" : "500",
+      "price" : "0.10",
+      "price_vat" : "0.12",
+      "related" : "5",
+      "uom" : "kg",
+      "waste" : "Stiklas",
+      "sites": []
+    },
+    "-MivsfkrojroM_AJrs70" : {
+      "code" : "20 01 10",
+      "free_limit" : "50",
+      "max_limit" : "100",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "related" : "7",
+      "uom" : "kg",
+      "waste" : "Drabužiai",
+      "sites": []
+    },
+    "-MivsifN_sP98yOttaXH" : {
+      "code" : "20 01 11",
+      "free_limit" : "50",
+      "max_limit" : "100",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "related" : "7",
+      "uom" : "kg",
+      "waste" : "Tekstilės gaminiai",
+      "sites": []
+    },
+    "-MivslI2WeCwxI20llLH" : {
+      "code" : "20 01 21",
+      "free_limit" : "unlimited",
+      "max_limit" : "5",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Dienos šviesos lempos, kuriose yra gyvsidabrio",
+      "sites": []
+    },
+    "-MivsnhrWTyI-2Fi91aq" : {
+      "code" : "20 01 21",
+      "free_limit" : "1",
+      "max_limit" : "5",
+      "price" : "3.09",
+      "price_vat" : "3.74",
+      "uom" : "vnt",
+      "waste" : "Termometrai, kuriuose yra gyvsidabrio",
+      "sites": []
+    },
+    "-Mivsq4B_Ia9Vx2l7_O7" : {
+      "code" : "20 01 23",
+      "free_limit" : "unlimited",
+      "max_limit" : "500",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Nebenaudojama įranga, kurioje yra chlorfluorangliavandenilių",
+      "sites": []
+    },
+    "-Mivssz3gi4mWsOcww5H" : {
+      "code" : "20 01 27",
+      "free_limit" : "10",
+      "max_limit" : "20",
+      "price" : "1.19",
+      "price_vat" : "1.44",
+      "related" : "1",
+      "uom" : "kg",
+      "waste" : "Dažai, rašalas, klijai ir dervos, kuriuose yra pavojingų cheminių medžiagų",
+      "sites": []
+    },
+    "-MivsvFZFVixZS1E79cH" : {
+      "code" : "20 01 34",
+      "free_limit" : "unlimited",
+      "max_limit" : "5",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Baterijos ir akumuliatoriai",
+      "sites": []
+    },
+    "-MivsxrQ8KJwDy2heYRQ" : {
+      "code" : "20 01 35",
+      "free_limit" : "unlimited",
+      "max_limit" : "500",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Nebenaudojama elektros ir elektroninė įranga, nenurodyta 20 01 21 ir 20 01 23, kurioje yra pavojingų sudedamųjų dalių",
+      "sites": []
+    },
+    "-Mivt-FYBN8VVg2DvX-q" : {
+      "code" : "20 01 36",
+      "free_limit" : "unlimited",
+      "max_limit" : "500",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Nebenaudojama elektros ir elektroninė įranga",
+      "sites": []
+    },
+    "-Mivt1YtgGQLWGbcDZPa" : {
+      "code" : "20 01 38",
+      "free_limit" : "250",
+      "max_limit" : "2000",
+      "price" : "0.12",
+      "price_vat" : "0.15",
+      "related" : "4",
+      "uom" : "kg",
+      "waste" : "Medienos atliekos",
+      "sites": []
+    },
+    "-Mivt4E7unkZjY_yCCAX" : {
+      "code" : "20 01 39",
+      "free_limit" : "20",
+      "max_limit" : "250",
+      "price" : "0.09",
+      "price_vat" : "0.11",
+      "related" : "3",
+      "uom" : "kg",
+      "waste" : "Plastikai",
+      "sites": []
+    },
+    "-Mivt6XcldwbZs7kbsSn" : {
+      "code" : "20 01 40",
+      "free_limit" : "unlimited",
+      "max_limit" : "500",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Metalas",
+      "sites": []
+    },
+    "-Mivt9ktTPfLW5qM62Hj" : {
+      "code" : "20 03 07",
+      "free_limit" : "250",
+      "max_limit" : "2000",
+      "price" : "0.14",
+      "price_vat" : "0.17",
+      "uom" : "kg",
+      "waste" : "Didžiosios atliekos (baldai)",
+      "sites": []
+    },
+    "-MivtCPH9zx1IUBv58DX" : {
+      "code" : "20 02 01",
+      "free_limit" : "100",
+      "max_limit" : "100",
+      "price" : "0.00",
+      "price_vat" : "0.00",
+      "uom" : "kg",
+      "waste" : "Biologiškai suyrančios atliekos (lapai, žolė, gėlės)",
+      "sites": []
+    },
+    "-MivtEj0B0Wn06NTZcyG" : {
+      "code" : "20 02 01",
+      "free_limit" : "3",
+      "max_limit" : "50",
+      "price" : "4.11",
+      "price_vat" : "4.97",
+      "uom" : "m3",
+      "waste" : "Biologiškai suyrančios atliekos",
+      "sites": []
+    },
+    "-MivtHKFpYcsrw7e4Kn9" : {
+      "code" : "Visi kodai",
+      "free_limit" : "0",
+      "max_limit" : "0",
+      "price" : "8.22",
+      "price_vat" : "9.95",
+      "uom" : "m3",
+      "waste" : "Kompostas",
+      "sites": []
+    }
+  }
+}

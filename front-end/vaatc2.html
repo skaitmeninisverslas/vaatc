@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <div class="DATASET">
+      <div class="HEADER">
+        <div class="HEADER__logo">
+          <img src="assets/images/logo.svg" alt="">
+        </div>
+        <ul class="HEADER__menu">
+          <li><a href="#">Naujų atliekų priėmimas</a></li>
+          <li><a href="#">Esamų atliekų tvarkymas</a></li>
+          <li><a href="#">Ataskaitos</a></li>
+          <li class="dropdown active">
+              <input type="button" name="" value="Vilniaus regioninis nepavojingų atliekų sąvartynas (Kazokiškės)">
+              <datalist class="HOMEPAGE__input-select">
+                <option value="">Vilniaus regioninis nepavojingų atliekų sąvartynas (Kazokiškės)</option>
+                <option class="active" value="">Vilniaus regioninis nepavojingų atliekų sąvartynas (Kazokiškės)</option>
+                <option value="">Vilniaus regioninis nepavojingų atliekų sąvartynas (Kazokiškės)</option>
+                <option value="">Vilniaus regioninis nepavojingų atliekų sąvartynas (Kazokiškės)</option>
+              </datalist>
+          </li>
+          <li><a href="#"><img src="assets/images/settings.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="DATASET__notification">
+        <div class="DATASET__notification-text">
+          <img src="assets/images/tick.svg" alt=""> Duomenys išsaugoti
+        </div>
+      </div>
+      <div class="HOMEPAGE__section">
+        <button type="button" name="button">
+          <img src="assets/images/home.svg" alt=""> Pradinis
+        </button>
+        <div class="HOMEPAGE__section-title">
+          Iš ko
+        </div>
+      </div>
+      <div class="DATASET__form">
+        <div class="DATASET__form-title">
+          Vardas
+        </div>
+        <div class="DATASET__form-title">
+          Pavardė
+        </div>
+        <div class="DATASET__form-title">
+          Asmens tapatybę patvirtinantis dokumentas
+        </div>
+        <div class="DATASET__form-title">
+          Dokumento nr.
+        </div>
+        <div class="DATASET__form-title">
+          Miestas
+        </div>
+        <div class="DATASET__form-title">
+          Gatvė, namo, buto nr.
+        </div>
+        <div class="DATASET__form-title">
+          Savivaldybė
+        </div>
+        <div class="DATASET__form-input">
+          <input class="error" type="text" name="" value="" placeholder="Vardas*">
+        </div>
+        <div class="DATASET__form-input">
+          <input type="text" name="" value="" placeholder="Pavardė*">
+        </div>
+        <div class="DATASET__form-input DROPDOWN">
+          <input type="button" name="" value="Pasas">
+          <datalist class="HOMEPAGE__input-select">
+            <option value="">Pasas</option>
+            <option class="active" value="">Asmens tapatybės kortelė</option>
+          </datalist>
+        </div>
+        <div class="DATASET__form-input">
+          <input type="text" name="" value="" placeholder="">
+        </div>
+        <div class="DATASET__form-input">
+          <input type="text" name="" value="" placeholder="">
+        </div>
+        <div class="DATASET__form-input">
+          <input type="text" name="" value="" placeholder="">
+        </div>
+        <div class="DATASET__form-input DROPDOWN">
+          <input type="button" name="" value="Vilniaus m. sav.">
+          <datalist class="HOMEPAGE__input-select">
+            <option value="">Šalčininkų sav.</option>
+            <option class="active" value="">Lentvario sav.</option>
+          </datalist>
+        </div>
+        <div class="DATASET__error">
+          Vardą ir pavardę privaloma užpildyti
+        </div>
+      </div>
+      <div class="HOMEPAGE__section RUBBISH">
+        <div class="HOMEPAGE__section-title">
+          Kas priimama
+        </div>
+      </div>
+      <div class="DATASET__status">
+
+        <div class="DATASET__form RUBBISH">
+          <div class="DATASET__form-title">
+            Data
+          </div>
+          <div class="DATASET__form-title">
+            Atlieka
+          </div>
+          <div class="DATASET__form-title">
+            Gautas kiekis, vnt.
+          </div>
+          {/*<div class="DATASET__form-title">
+            Gautas kiekis, t.
+          </div>
+          <div class="DATASET__form-title">
+            Atliekų kilmė
+          </div>
+          <div class="DATASET__form-input DATE">
+            <input type="datetime-local" name="" value="">
+          </div>
+          <div class="DATASET__form-input DROPDOWN RUBBISH">
+            <input type="text" name="" value="" placeholder="Ieškoti...">
+            <datalist class="HOMEPAGE__input-select">
+              <option value="">18 01 10 - plastikas</option>
+              <option class="active" value="">13 12 11 - popiera</option>
+            </datalist>
+          </div>
+          <div class="DATASET__form-input INFO free">
+            <input type="text" name="" value="" placeholder="">
+            <div class="DATASET__form-limits">
+              <div class="DATASET__form-limits-agree">
+                Nemokamas kiekis iki 50
+              </div>
+              <div class="DATASET__form-limits-paid">
+                Mokamas kiekis virš 50 vnt.
+              </div>
+              <div class="DATASET__form-limits-maximum">
+                Maksimalus kiekis 5000 vnt.
+              </div>
+              <div class="DATASET__form-limits-text1">
+                Nemokamai dar galima pristatyti <span>a</span> kg <br>
+                Viso šios dar galima pristatyti <span>b</span> kg
+              </div>
+              <div class="DATASET__form-limits-text2">
+                Nemokamas limitas viršytas.<br>
+                Mokėti <span>c</span> € be PVM (<span>d</span> € su PVM)
+              </div>
+              <div class="DATASET__form-limits-text3">
+                Mokamai dar galima pristatyti <span>e</span> kg<br>
+                Didžiausias leistinas limitas viršijamas <span>d</span> kg<br>
+                Mokėti <span>e</span> € be PVM (<span>f</span> € su PVM)
+              </div>
+              <button class="DATASET__form-limits-button" type="button" name="button">Uždaryti</button>
+            </div>
+          </div>
+          <div class="DATASET__form-input INFO max">
+            <input type="text" name="" value="" placeholder="">
+            <div class="DATASET__form-limits">
+              <div class="DATASET__form-limits-agree">
+                Nemokamas kiekis iki 50
+              </div>
+              <div class="DATASET__form-limits-paid">
+                Mokamas kiekis virš 50 vnt.
+              </div>
+              <div class="DATASET__form-limits-maximum">
+                Maksimalus kiekis 5000 vnt.
+              </div>
+              <div class="DATASET__form-limits-text1">
+                Nemokamai dar galima pristatyti <span>a</span> kg <br>
+                Viso šios dar galima pristatyti <span>b</span> kg
+              </div>
+              <div class="DATASET__form-limits-text2">
+                Nemokamas limitas viršytas.<br>
+                Mokėti <span>c</span> € be PVM (<span>d</span> € su PVM)
+              </div>
+              <div class="DATASET__form-limits-text3">
+                Mokamai dar galima pristatyti <span>e</span> kg<br>
+                Didžiausias leistinas limitas viršijamas <span>d</span> kg<br>
+                Mokėti <span>e</span> € be PVM (<span>f</span> € su PVM)
+              </div>
+              <button class="DATASET__form-limits-button" type="button" name="button">Uždaryti</button>
+            </div>
+          </div>
+
+          <div class="DATASET__form-input DROPDOWN RUBBISH">
+            <input type="text" name="" value="" placeholder="Ieškoti...">
+            <datalist class="HOMEPAGE__input-select">
+              <option value="">Komunalinis</option>
+              <option class="active" value="">Įmonės</option>
+            </datalist>
+          </div>
+          <div class="DATASET__form-input ADD">
+            <button type="button" name="button"><img src="assets/images/plus.svg" alt=""> Pridėti atlieką</button>
+          </div>
+        </div>
+        <button class="DATASET__submit" type="button" name="button">Patvirtinti</button>
+        <div class="DATASET__disabled"></div>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+  </body>
+</html>

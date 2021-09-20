@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+$grid-gutter-width: 20px;
+$grid-gutter-small: 20px;
+$grid-gutter-large: 20px;
+
+// vendors
+@import "vendors/bootstrap";
+
+// general
+@import "general/fonts";
+@import "general/icons";
+@import "general/defaults";
+
+// components
+@import "components/homepage";
+@import "components/header";
+@import "components/dataset";
+@import "components/dropdown";
+@import "components/limits";
